@@ -63,6 +63,7 @@ public class Main {
         Lecturer lecturer3 = new Lecturer("Stephen Macauley", LecturerCourse.PHYSICS);
 
         Course course3 = new Course("PHYSICS", lecturer3, physics, CourseYear.FOURTH);
+        System.out.println(course3);
 
     }
 
