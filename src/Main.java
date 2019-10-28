@@ -27,7 +27,7 @@ public class Main {
             if (student.getYearofStudent() == YearofStudent.FIRST) {
                 introToProgramming.add(student);
             }
-            printStudents(introToProgramming);
+           // printStudents(introToProgramming);
         }
 
         Lecturer lecturer = new Lecturer("Kwame Appati", LecturerCourse.PROGRAMMING);
@@ -51,14 +51,14 @@ public class Main {
         Course course2 = new Course("ADVANCED GARDENING", lecturer2, advancedGardening, CourseYear.THIRD);
 
         List<Student> physics = new ArrayList<>();
-        for (Student stu :students) {
-            if (stu.getYearofStudent() == YearofStudent.FOURTH) {
-            if (stu.getName() StartWith.)
-            {
-                physics.add(stu);
-            }
-            //printStudents(physics);
-            }
+//        for (Student stu :students) {
+//            if (stu.getYearofStudent() == YearofStudent.FOURTH) {
+//            if (stu.getName() StartWith.)
+//            {
+//                physics.add(stu);
+//            }
+//            //printStudents(physics);
+//            }
 
         Lecturer lecturer3 = new Lecturer("Stephen Macauley", LecturerCourse.PHYSICS);
 
