@@ -1,4 +1,5 @@
-import javax.naming.Name;
+package turntabl;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -51,8 +52,8 @@ public class Main {
         Course course2 = new Course("ADVANCED GARDENING", lecturer2, advancedGardening, CourseYear.THIRD);
 
         List<Student> physics = new ArrayList<>();
-//        for (Student stu :students) {
-//            if (stu.getYearofStudent() == YearofStudent.FOURTH) {
+//        for (turntabl.Student stu :students) {
+//            if (stu.getYearofStudent() == turntabl.YearofStudent.FOURTH) {
 //            if (stu.getName() StartWith.)
 //            {
 //                physics.add(stu);

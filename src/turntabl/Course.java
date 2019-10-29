@@ -1,3 +1,5 @@
+package turntabl;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -32,7 +34,7 @@ public class Course {
 
     @Override
     public String toString() {
-        return "Course{" +
+        return "turntabl.Course{" +
                 "name='" + name + '\'' +
                 ", lecturer=" + lecturer +
                 ", students=" + students +

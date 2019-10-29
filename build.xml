@@ -25,4 +25,8 @@
     <!-- Delete the ${build} and ${dist} directory trees -->
     <delete dir="${build}"/>
   </target>
+
+  <target name="test">
+
+  </target>
 </project>

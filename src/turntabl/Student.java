@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package turntabl;
 
 public class Student {
     public String Name;
@@ -25,7 +25,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "turntabl.Student{" +
                 "Name='" + Name + '\'' +
                 ", ID=" + ID +
                 ", yearofStudent=" + yearofStudent +

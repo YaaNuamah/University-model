@@ -1,4 +1,4 @@
-import java.util.List;
+package turntabl;
 
 public class Lecturer {
     public String name;
@@ -21,7 +21,7 @@ public class Lecturer {
 
     @Override
     public String toString() {
-        return "Lecturer{" +
+        return "turntabl.Lecturer{" +
                 "name='" + name + '\'' +
                 ", lecturerCourse=" + lecturerCourse +
                 '}';
